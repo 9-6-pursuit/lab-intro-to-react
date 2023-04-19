@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./Components/NavBar.js";
 import UserProfile from "./Components/UserProfile.js";
 import Posts from "./Components/Posts.js";
-import ContactUserCard from "./Components/ContactUserCard.js";
+import Contacts from "./Components/Contacts.js";
 import "./index.css";
 
 function App () {
@@ -11,7 +11,7 @@ function App () {
     <NavBar></NavBar> 
     <UserProfile></UserProfile>
     <Posts></Posts>
-    <ContactUserCard></ContactUserCard>
+    <Contacts></Contacts>
   </div>;
 };
 
