@@ -7,12 +7,21 @@ import Contacts from "./Components/Contacts";
 
 function App () {
   return (
-  <>
-    <NavBar />
-    <UserProfile />    
-    <Posts />
-    <Contacts />
-  </>
+  <div className="wrapper">
+
+    <nav><NavBar /></nav>
+    <div className="d-flex flex-row">
+      <div className="userProfile">
+        <UserProfile />
+      </div>
+      <div className="posts">
+        <Posts />
+      </div>
+      <div className="d-flex flex-row-rev p-4 contacts">
+        <Contacts />
+      </div>
+    </div>
+  </div>
 )
 };
 
