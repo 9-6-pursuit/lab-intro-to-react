@@ -9,3 +9,61 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.navBar {
+  color: rgb(142, 90, 148);
+  border-color: green;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.container {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* create two columns */
+  grid-template-rows: 1fr 1fr; /* create two rows for the left column */
+  grid-gap: 100px; /* add some spacing between the grid items */
+}
+
+.profile {
+  height: 60px;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.left-column {
+  display: grid;
+  grid-template-rows: auto; /* create two rows for the left column */
+  grid-gap: 10px; /* add some spacing between the grid items */
+  border-color: blueviolet;
+  border-style: dotted;
+  border-width: medium;
+}
+
+.Posts {
+  height: 60px;
+  text-align: center;
+  border-color: blueviolet;
+  border-style: dotted; /* I don't know why my */
+  border-width: medium;
+}
+
+.right-column {
+  display: grid;
+  grid-template-rows: 1fr; /* create one row for the right column */
+  border-color: rgb(208, 43, 226);
+  border-style: dotted;
+  border-width: medium;
+  box-sizing: border-box;
+}
+
+.userContact {
+  text-align: center;
+  height: 100%;
+  padding-top: 50px;
+}
