@@ -8,11 +8,10 @@ import Contacts from "./Components/Contacts";
 function App () {
   return (
   <>
-    <p>Hello, world! What up?</p>
     <NavBar />
-    <UserProfile />
-    <Contacts />
+    <UserProfile />    
     <Posts />
+    <Contacts />
   </>
 )
 };
