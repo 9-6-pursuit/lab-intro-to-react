@@ -49,7 +49,7 @@ body,
   height: 60px;
   text-align: center;
   border-color: blueviolet;
-  border-style: dotted; /* I don't know why my */
+  border-style: dotted; /* I don't know why my posts are hanging outside of the grid box*/
   border-width: medium;
 }
 
