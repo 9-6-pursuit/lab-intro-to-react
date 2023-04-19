@@ -1,3 +1,4 @@
+
 describe("App Hierarchy", () => {
   it("should have a NavBar component", () => {
     cy.react("NavBar").should("exist");
