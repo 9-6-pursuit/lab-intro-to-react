@@ -1,4 +1,4 @@
-import ContactUserCard from "./ContactUserCard.js";
+import ContactUserCard from "./ContactUserCard";
 
 function Contacts () {
     return <div>

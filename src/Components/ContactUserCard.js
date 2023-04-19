@@ -1,5 +1,5 @@
 function ContactUserCard () {
-    return <p>This is the contact card !</p>;
+    return <p>A contact card !</p>;
   };
   
   export default ContactUserCard;
