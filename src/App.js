@@ -7,10 +7,10 @@ import Contacts from "./Components/Contacts";
 
 function App () {
   return (
-  <div className="wrapper">
+  <div>
 
     <nav><NavBar /></nav>
-    <div className="d-flex flex-row">
+    <div>
       <div className="userProfile">
         <UserProfile />
       </div>

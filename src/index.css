@@ -24,10 +24,15 @@ div {
   width:auto;
   height: auto;
   max-width: 235px;
+  float: left;
 }
 
 .wrapper {
   padding: 20px;
+  display: grid;
+
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  column-gap: 5px;
 }
 
 .d-flex {
@@ -44,8 +49,21 @@ div {
 
 
 .pb-4 {padding-bottom: 1.5rem;}
-.p-2 {padding:0.5rem}
+
+.p-2 {
+  padding:0.5rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
 .p-4 {padding: 1.5rem;}
+
+.text-card {
+  font-size: 17px;
+  padding-left: 20px;
+  padding-top: 20%;
+  float: left;
+}
 
 *, :after, :before {
   box-sizing: border-box;
