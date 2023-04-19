@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 body {
-  font-family: sans-serif;
+  font-family: 'Bangers', cursive;
   margin: 0;
 }
 
@@ -8,4 +10,60 @@ body,
 #root {
   height: 100%;
   width: 100%;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(3, 2fr);
+  margin: 37px;
+  padding: 33px;
+  column-gap: 45px;
+}
+
+.contacts,
+.post,
+.posts,
+.user-card {
+  border-color: red;
+  border-radius: 13px;
+  border-style: ridge;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 13px;
+}
+
+.nav {
+  background-color: #39ff14;
+  grid-area: 'nav';
+  padding: 13px;
+  text-align: right;
+}
+
+.contacts {
+  grid-area: 'contact';
+}
+
+.post {
+  margin: 7px;
+}
+
+.posts {
+  grid-area: 'posts';
+}
+
+.user {
+  grid-ea: 'user';
+  border-color: #FFF01F;
+  border-radius: 10px;
+  border-style: ridge;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 13px;
+  height: 20%;
+}
+
+.user-card {
+  margin: 7px;
 }
