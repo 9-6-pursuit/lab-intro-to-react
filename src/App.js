@@ -8,7 +8,12 @@ import "./index.css";
 
 function App () {
   // return <p>Hello, Everybody!!!!</p>;
-  return <div><NavBar /> <UserProfile /> <Posts></Posts><contacts></contacts></div>
+  return <div>
+    <NavBar /> 
+    <UserProfile /> 
+    <Posts />
+    <Contacts />
+  </div>
 
 };
 
