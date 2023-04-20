@@ -1,8 +1,8 @@
 function NavBar (){
 
     return (
-        <div>
-            <h1>We back </h1>
+        <div className="NavBar">
+            <h1>What is Pursuit</h1>
         </div>
     )
 }
