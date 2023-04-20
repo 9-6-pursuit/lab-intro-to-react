@@ -1,9 +1,11 @@
-import post from "./Post"
-function Posts (){
+import Post from "./Post"
+function Posts (props){
 
     return (
-        <div>
-            <h1>User Profile:</h1>
+        <div className="Post"> 
+            <Post />
+            <Post />
+            <Post />
         </div>
     )
 }

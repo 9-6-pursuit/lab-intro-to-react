@@ -1,8 +1,9 @@
 function Post (){
 
     return (
-        <div>
-            <h1>User Profile:</h1>
+        <div className="Post">
+            <h1>Title</h1>
+            <p>Write Description Here</p>
         </div>
     )
 }
