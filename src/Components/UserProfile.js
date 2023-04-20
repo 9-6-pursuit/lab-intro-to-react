@@ -1,8 +1,11 @@
-function userProfile (){
+function userProfile (props){
 
     return (
-        <div>
-            <h1>User Profile:</h1>
+        <div className="UserProfile">
+            <h2>{props.name}</h2>
+            <h3>{props.creator}</h3>
+            <p>{props.text}</p>
+            <img src={props.image} alt="profile" />
         </div>
     )
 }
