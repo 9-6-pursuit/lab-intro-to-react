@@ -1,4 +1,6 @@
-function userProfile (props){
+
+
+function UserProfile (props){
 
     return (
         <div className="UserProfile">
@@ -10,4 +12,4 @@ function userProfile (props){
     )
 }
 
-export default userProfile;
+export default UserProfile;

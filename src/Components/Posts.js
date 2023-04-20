@@ -1,8 +1,8 @@
 import Post from "./Post"
-function Posts (props){
 
+function Posts (props){
     return (
-        <div className="Post"> 
+        <div className="Posts"> 
             <Post />
             <Post />
             <Post />
