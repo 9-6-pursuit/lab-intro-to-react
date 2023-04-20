@@ -1,0 +1,8 @@
+When we change thins in App.js its what reflects on the screen
+Its our entry point into the app 
+JSX is a hybrid of javascript and html
+Import says hey get the framework
+Folders in folder is a folder hiearchy 
+and there is a Component hiearchy/structure or tree
+if you hold down shift and option, then press arrow down you can duplicate
+When we want things to be nested under a component ----see Posts and post
