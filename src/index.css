@@ -9,3 +9,48 @@ body,
   height: 100%;
   width: 100%;
 }
+
+/* .app {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+main {
+  grid-template-areas: 'current current contacts';
+                        
+} */
+
+.currentUser {
+  border: 3px solid black;
+  margin: 15px;
+  padding: 10px;
+  grid-area: current;
+}
+
+.contacts {
+  border: 3px solid black;
+  margin: 15px;
+  padding: 10px;
+  grid-area: contacts;
+}
+
+
+.posts {
+  border: 3px solid black;
+  margin: 15px;
+  padding: 10px;
+}
+
+
+nav {
+  display: flex;
+  background-color: blue;
+  justify-content: end;
+  height: 35px;
+  padding: 7px;
+}
+
+nav .button {
+  margin-right: 10px;
+}
+
