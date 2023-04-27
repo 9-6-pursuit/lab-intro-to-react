@@ -1,8 +1,10 @@
 import React from "react";
 import "./index.css";
 
-function App () {
-  return <p>Hello, world!</p>;
+function App ({ children }) {
+  return <div className="app">
+    { children }
+  </div>;
 };
 
 export default App;
